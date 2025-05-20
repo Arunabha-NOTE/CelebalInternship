@@ -3,14 +3,13 @@
 ## 1. File Permissions
 
 * **Objective:** Create a file, assign permissions (read, write, execute) to different user categories (owner, group, others), and practice changing permissions using `chmod`.
-* **Resources:** [YouTube Video](https://www.youtube.com/watch?v=iwolPf6kN-khttps://www.pluralsight.com/blog/it-ops/linux-file-permissions)
 * **Solution:**
     1.  Create a new file using the `touch` command:
         ```bash
         touch my_file.txt
         ```
-        ![Figure 1 from paper](vit_figure.png)  
-        2.  List the file's permissions using `ls -l`:
+        ![Figure 1 from paper](https://drive.google.com/file/d/1i1INjlAc1kPALRw6eWNF8ij0JorPsXm0/view?usp=sharing)  
+    2.  List the file's permissions using `ls -l`:
         ```bash
         ls -l my_file.txt
         ```
@@ -26,9 +25,9 @@
             chmod g+w my_file.txt
             ```
             4.  Verify the changes using `ls -l`.
-        ```bash
-        ls -l my_file.txt
-        ```
+            ```bash
+            ls -l my_file.txt
+            ```
 
 ## 2. Basic Linux Commands
 
