@@ -1,11 +1,7 @@
 # Assignment Linux 
 
 
-## 1. File Permissions
-
-### Objective
-
-Create a file, assign permissions (read, write, execute) to different user categories (owner, group, others), and practice changing permissions using chmod.
+## 1. Create a file, assign permissions (read, write, execute) to different user categories (owner, group, others), and practice changing permissions using chmod.
 
 ### Solution
 
@@ -55,13 +51,9 @@ Create a file, assign permissions (read, write, execute) to different user categ
     ![Screenshot of work](screenshots/givingpermissions.png) 
 ---
 
-## 2. Basic Linux Commands
+## 2. Execute basic Linux commands (e.g., ls, cd, mkdir, rm, touch) to manipulate files and directories, with an emphasis on understanding their usage.
 
-### 🎯 Objective
-
-Execute basic Linux commands (e.g., ls, cd, mkdir, rm, touch) to manipulate files and directories, with an emphasis on understanding their usage.
-
-### 📝 Solution
+### Solution
 
 1. **Create a new directory:**
 
@@ -111,13 +103,9 @@ Execute basic Linux commands (e.g., ls, cd, mkdir, rm, touch) to manipulate file
     ![Screenshot of work](screenshots/part2.png) 
 ---
 
-## 3. Directory Navigation
+## 3. Using the terminal, practice navigating through directories, listing file contents, and moving files to different locations.
 
-### 🎯 Objective
-
-Using the terminal, practice navigating through directories, listing file contents, and moving files to different locations.
-
-### 📝 Solution
+### Solution
 
 1. **Show current directory:**
 
@@ -164,13 +152,9 @@ Using the terminal, practice navigating through directories, listing file conten
     ![Screenshot of work](screenshots/part3.png) 
 ---
 
-## 4. User and Group Management
+## 4. Create a new user and group, set their permissions, and explore user management commands like useradd, usermod, and userdel.
 
-### 🎯 Objective
-
-Create a new user and group, set their permissions, and explore user management commands like useradd, usermod, and userdel.
-
-### 📝 Solution
+### Solution
 
 1. **Create a new group:**
 
@@ -215,13 +199,9 @@ Create a new user and group, set their permissions, and explore user management 
     ![Screenshot of work](screenshots/part4.png) 
 ---
 
-## 5. Additional Linux Commands
+## 5. Practices more linux commands
 
-### 🎯 Objective
-
-Practices more linux commands
-
-### 📝 Solution
+### Solution
 
 1. **Search files:**
 
