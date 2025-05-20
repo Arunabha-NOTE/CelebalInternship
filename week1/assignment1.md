@@ -161,7 +161,7 @@ Using the terminal, practice navigating through directories, listing file conten
    ls test_move/
    ```
  
-    Output:
+    Output:  
     ![Screenshot of work](screenshots/part3.png) 
 ---
 
@@ -212,7 +212,7 @@ Create a new user and group, set their permissions, and explore user management 
    * `passwd`: set password
    * `usermod -aG`: add to supplementary group
    * `userdel -r`: delete user and home directory  
-    Output:
+    Output:  
     ![Screenshot of work](screenshots/part4.png) 
 ---
 
@@ -252,6 +252,6 @@ Practices more linux commands
    df -h      # Disk space
    du -sh .   # Directory size
    ```
-    Output:
+    Output:  
     ![Screenshot of work](screenshots/part51.png) 
     ![Screenshot of work](screenshots/part52.png) 
