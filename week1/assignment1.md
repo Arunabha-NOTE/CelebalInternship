@@ -7,13 +7,13 @@
     1.  Create a new file using the `touch` command:
         ```bash
         touch my_file.txt
-        ```
-        ![Figure 1 from paper](https://drive.google.com/file/d/1i1INjlAc1kPALRw6eWNF8ij0JorPsXm0/view?usp=sharing)  
+        ``` 
     2.  List the file's permissions using `ls -l`:
         ```bash
         ls -l my_file.txt
         ```
-        * Explain the output (e.g., what do the `rwx` characters mean?).
+        ![Screenshot of work](screenshots/filecreation.png) 
+        * First character (-) indicates its a file, next three (rw-) indicates read and write permission no execute. The next three characters (r--) indicates permission for groups which are read only. Last three characters (r--) indicate others have read only permission.
     3.  Change the file permissions using `chmod`.
         * Example 1: Give the owner read, write, and execute permissions; the group read and execute; and others read.
             ```bash
@@ -28,6 +28,7 @@
             ```bash
             ls -l my_file.txt
             ```
+    
 
 ## 2. Basic Linux Commands
 
