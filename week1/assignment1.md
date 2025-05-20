@@ -6,7 +6,7 @@
 
 ### Objective
 
-Create a file, assign and modify permissions for owner, group, and others using `chmod`.
+Create a file, assign permissions (read, write, execute) to different user categories (owner, group, others), and practice changing permissions using chmod.
 
 ### Solution
 
@@ -60,7 +60,7 @@ Create a file, assign and modify permissions for owner, group, and others using 
 
 ### 🎯 Objective
 
-Execute basic Linux commands to manipulate files and directories.
+Execute basic Linux commands (e.g., ls, cd, mkdir, rm, touch) to manipulate files and directories, with an emphasis on understanding their usage.
 
 ### 📝 Solution
 
@@ -106,17 +106,17 @@ Execute basic Linux commands to manipulate files and directories.
 7. **Additional commands:**
 
    ```bash
-   cp file3.txt copy_of_file3.txt   # Copy file
-   mv copy_of_file3.txt ../backup/  # Move file
+   cp file3.txt copy_of_file3.txt   
    ```
-
+    Output:
+    ![Screenshot of work](screenshots/part2.png) 
 ---
 
 ## 3. Directory Navigation
 
 ### 🎯 Objective
 
-Practice navigating through directories and managing file locations.
+Using the terminal, practice navigating through directories, listing file contents, and moving files to different locations.
 
 ### 📝 Solution
 
@@ -126,16 +126,16 @@ Practice navigating through directories and managing file locations.
    pwd
    ```
 
-2. **Navigate using absolute path:**
+2. **Navigate back a directory:**
 
    ```bash
-   cd /home/youruser/Documents
+   cd ..
    ```
 
-3. **Navigate using relative path:**
+3. **Navigate forward:**
 
    ```bash
-   cd ../Desktop
+   cd my_directory
    ```
 
 4. **List with options:**
@@ -143,39 +143,33 @@ Practice navigating through directories and managing file locations.
    ```bash
    ls -lah
    ```
+   * `-l`: long format
+   * `-a`: list all files
+   * `-h`: human-readable file sizes
 
-5. **Go up one level:**
-
-   ```bash
-   cd ..
-   ```
-
-6. **Go to home directory:**
+5. **Go to home directory:**
 
    ```bash
    cd ~
    ```
 
-7. **Move files between directories:**
+6. **Move files between directories:**
 
    ```bash
    mkdir test_move
    mv file2.txt test_move/
    ls test_move/
    ```
-
-8. **Explain paths:**
-
-   * **Absolute path:** full path from root (e.g., `/home/user/...`)
-   * **Relative path:** relative to current directory (e.g., `../folder`).
-
+ 
+    Output:
+    ![Screenshot of work](screenshots/part3.png) 
 ---
 
 ## 4. User and Group Management
 
 ### 🎯 Objective
 
-Create and manage users/groups and set permissions.
+Create a new user and group, set their permissions, and explore user management commands like useradd, usermod, and userdel.
 
 ### 📝 Solution
 
@@ -200,7 +194,7 @@ Create and manage users/groups and set permissions.
 4. **Modify user's groups:**
 
    ```bash
-   sudo groupadd other_group    # if needed
+   sudo groupadd other_group    
    sudo usermod -aG other_group new_user
    id new_user
    ```
@@ -217,15 +211,16 @@ Create and manage users/groups and set permissions.
    * `useradd`: create user
    * `passwd`: set password
    * `usermod -aG`: add to supplementary group
-   * `userdel -r`: delete user and home directory
-
+   * `userdel -r`: delete user and home directory  
+    Output:
+    ![Screenshot of work](screenshots/part4.png) 
 ---
 
 ## 5. Additional Linux Commands
 
 ### 🎯 Objective
 
-Enhance command-line skills with searching, compression, and system info.
+Practices more linux commands
 
 ### 📝 Solution
 
@@ -257,6 +252,6 @@ Enhance command-line skills with searching, compression, and system info.
    df -h      # Disk space
    du -sh .   # Directory size
    ```
-
-5. **Document usage**
-   Provide examples and brief descriptions for each command.
+    Output:
+    ![Screenshot of work](screenshots/part51.png) 
+    ![Screenshot of work](screenshots/part52.png) 
