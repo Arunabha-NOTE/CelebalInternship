@@ -1,6 +1,5 @@
 # Assignment Linux 
 
----
 
 ## 1. File Permissions
 
